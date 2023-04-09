@@ -1,0 +1,127 @@
+body {
+    /*background: linear-gradient(to right, #0f2027, #203a43, #2c5364);*/
+    font-family: 'Poppins', sans-serif;
+    background: url('d2.jpeg') no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+/*    height: 100%;
+    width: 100%;*/
+/*    align-items: center;
+    justify-content: center;
+    min-height: 190vh;
+    background: url('d2.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    
+}
+
+#form {
+    width: 700px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 4px;
+  /*background-color: #5271FF;*/
+  border: 1px solid transparent;
+  border-radius: .75rem;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	/*border-radius: 4px;*/
+	border-radius: 100px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.main_group{
+    display: flex; 
+    flex-wrap: wrap;
+    columns: 2;
+  column-gap: 60px;
+  width: 100%;
+}
+
+.groupOne{
+    flex: 1; 
+    padding: 10px;
+}
+.groupTwo{
+    flex: 1; 
+    padding: 10px;
+}
+
+.submit-div{
+    height: 200px;
+    width: 80%;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: .75rem;
+    border: 1px solid rgba(116, 116, 116, 0.76);
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(43, 43, 43, 0.247);
+    display: block;
+}
+.submit-div i{
+    font-size: 40px;
+    padding-top: 50px;
+    color: #5271FF;
+}
+.submit-div h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.all_container.icon{
+    position: absolute;
+    right: 100px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+}
+

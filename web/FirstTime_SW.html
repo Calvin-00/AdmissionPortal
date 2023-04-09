@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FirstTime.css">
+    <script src="validationAll.js" type="text/javascript"></script>
+    <title>Fungua Akaunti</title>
+</head>
+<body>
+    <div class="langWrap">
+			<a href="http://localhost:23667/AdmissionPortal/FirstTime_EN.html" language='english' class="active">EN🇺🇸</a>
+			<a href="http://localhost:23667/AdmissionPortal/FirstTime_FR.html" language='kazakh'>FR🇫🇷</a>
+			<a href="http://localhost:23667/AdmissionPortal/FirstTime_SW.html" language='japanese'>SW🇹🇿</a>
+		</div>
+    <form id="form" action="FirstTime" method="post" class="form" >
+        <div class="box">
+            <h2 class="logo"><img src="d1.png"></h2>
+            <h2>Fungua Akaunti yako</h2>
+            <div class="text_field">
+            <input id="firstEmail" name="firstEmail" type="text" placeholder="Barua pepe" required oninput="validateEmail()"> <br>
+            <span id="emailError" style="color: red;"></span>
+            </div> 
+            <div class="text_field">
+            <input id="firstPassword" name="firstPassword" type="text" placeholder="Nenosiri" required oninput="validatePassword()"> <br>
+            <span id="passError" style="color: red;"></span>
+            </div> 
+            <div class="text_field">
+            <input id="firstPasswordAgain" name="firstPasswordAgain" type="text" placeholder="Thibitisha" required oninput="validateConfPassword()"> <br>
+            <span id="confpassError" style="color: red;"></span>
+            </div> 
+            <Button class="btn">Kujiandikisha</Button>
+            <!--<input class="btn" type="submit" value="Sign up">-->
+            <br> <h3>Je, tayari una akaunti? <a href="http://localhost:23667/AdmissionPortal/LoginAdmission_SW.html" class="register-link">Ingia</a></h3>
+        </div>
+    </form>
+     
+</body>
+</html>

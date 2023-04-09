@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+        <title>Ingia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="portcss.css" rel="stylesheet" type="text/css"/>
+    <script src="validationAll.js" type="text/javascript"></script>
+    <!--<script defer src="portLoginJs.js" ></script>-->
+    </head>
+    <body>
+        <h2 class="logo"><img src="d1.png"></h2>
+        
+        <div class="all_container">
+            <form id="form" action="LoginManager" method="post">
+                <div class="langWrap">
+			<h2><a href="http://localhost:23667/AdmissionPortal/LoginAdmission_EN.html" language='english' class="active">EN🇺🇸</a></h2>
+			<h2><a href="http://localhost:23667/AdmissionPortal/LoginAdmission_FR.html" language='kazakh'>FR🇫🇷</a></h2>
+			<h2><a href="http://localhost:23667/AdmissionPortal/LoginAdmission_SW.html" language='japanese'>SW🇹🇿</a></h2>
+		</div>
+            <h1>Ingia</h1>
+            <div class="input-control">
+                <label for="username">Barua pepe</label>
+                <input id="usernameLogins" name="email" type="text" required oninput="validateEmailLogIn()">
+                <span id="emailError" style="color: red;"></span>
+                <div class="error"></div>
+            </div>
+            
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="passwordLogins" name="password" type="password" required oninput="validatePasswordLogIn()">
+                <span id="passError" style="color: red;"></span>
+                <div class="error"></div>
+            </div>
+            
+            <button type="submit">Ingia</button>
+            <div class="login-register">
+                        <h3>Je, huna akaunti? <a href="http://localhost:23667/AdmissionPortal/FirstTime_SW.html" class="register-link">Fungua akaunti mpya</a></h3>
+                    </div>
+            </form> 
+        </div>
+    </body>
+</html>
