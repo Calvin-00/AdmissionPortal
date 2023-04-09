@@ -33,8 +33,8 @@ public class SendEmail {
         boolean test = false;
 
         String toEmail = user.getEmail();
-        String fromEmail = "cs@wakaglobal.com";
-        String password = "Auca@2021";
+        String fromEmail = "email";
+        String password = "password";
 
         try {
 
